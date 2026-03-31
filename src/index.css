@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-white;
+  }
+}
+
+.title-reveal {
+  @apply font-black text-8xl uppercase leading-none tracking-tight;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
